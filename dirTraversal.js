@@ -29,10 +29,9 @@ function handleFiles(files,floor,path,handleFile) {
 		var tmpPath = path + '/'+files[index];
 		handleFile(tmpPath,floor,index==length-1?true:false);
 	}
-files.forEach()
-{
-
-}
+files.forEach(function (params) {
+	;
+})
 /*	files.forEach(function(item) {
 				var tmpPath = path + '/' + item;
 				fs.stat(tmpPath, function(err1, stats) {
